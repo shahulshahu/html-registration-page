@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fest Registration</title>
+</head>
+<body style="text-align:center;">
+<h1><b><u>College Fest Registration</u></b></h1>
+<form action="action_page.php">
+  First name:
+  <input type="text" name="firstname" placeholder="Firstname">
+  <br>
+  Last name:
+  <input type="text" name="lastname" placeholder="Lastname">
+  <br>
+  Email:
+   <input type="email" name="Email" placeholder="Enter your Email">
+<br>
+  Select your Semester:
+  <select>
+  <option value="semester 1">Semester 1</option>
+  <option value="Semester 2">Semester 2</option>
+  <option value="Semester 3">Semester 3</option>
+  <option value="semester 4">Semester 4</option>
+  <option value="Semester 5">Semester 5</option>
+  <option value="Semester 6">Semester 6</option>
+  <option value="Semester 7">Semester 7</option>
+  <option value="Semester 8">Semester 8</option>
+</select><br>
+  Roll Number:
+  <input type="text" name="roll number" placeholder="Enter your roll number"><br>
+Gender
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+<input type="checkbox" name="singing" value="singing">Signing
+<input type="checkbox" name="Dancing" value="Dancing">Dancing (Solo) <br> 
+<input type="checkbox" name="skit" value="skit">Skit
+<input type="checkbox" name="Dancing" value="Dancing">Dancing (Group) <br> 
+Any extra skills ? <br>
+<textarea border=none rows="4" cols="50" placeholder="Skills separated by comma">
+</textarea> <br>
+
+<form action="upload.php" method="post">
+    Attach a file:
+    <input type="file" name="Attach a file" id="Attach a file">
+</form><br>
+
+<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please ensure to read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+
+<input type="checkbox" name="checkbox" value="check" id="agree" /><i><u> I have read and agree to the Terms and Conditions and Privacy Policy
+</i></u></form>
+<br>
+
+<form action="">
+ <input type="submit" value="Register">
+</form> 
+<br>
+<br>
+<br>
+
+<marquee>Designed and developed by shahul</marquee
+</body>
+</html>
